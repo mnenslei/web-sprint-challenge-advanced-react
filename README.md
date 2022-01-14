@@ -83,10 +83,10 @@ In this project, you will build the retrieve data from a public api, add in a fa
 * [X] Try and build it out first before you peek at the guided project. And *do not* copy/paste directly from the guided project!_
 
 ### Testing the Checkout Form
-* [ ] Run the test runner and ensure that `src/components/CheckoutForm.test.js` is correctly called.
-* [ ] Fill out code necessary to test that that Checkout form renders without errors.
-* [ ] Fill out code necessary to test that when all form inputs are filled with valid data, a success message appears.
-* [ ] Make sure the tests are passing, and make sure you can cause the tests to fail purposefully, so that you know the tests are truly working.
+* [X] Run the test runner and ensure that `src/components/CheckoutForm.test.js` is correctly called.
+* [X] Fill out code necessary to test that that Checkout form renders without errors.
+* [X] Fill out code necessary to test that when all form inputs are filled with valid data, a success message appears.
+* [X] Make sure the tests are passing, and make sure you can cause the tests to fail purposefully, so that you know the tests are truly working.
 
 ## Important Notes:
 * Again, unlike other projects, the local server used here can not be accessed through the browser. For this and the rest of your sprint challenges, test the functioning of the server directly through your axios calls.
@@ -118,8 +118,18 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What are the main differences between a class-based and a functional component?
 
+Functional components are plainer js functions that accept props and return react elements while class-based components extend from react and create a render function which returns a react element, they also are stateful components that implement state.
+
 2. When does a componentWillMount function be called? What about a componentDidUpdate?
+
+componentWillMount is called after the parent function renders while componentDidUpdate is called when new props are created or state changes.
 
 3. Define stateful logic.
 
+Stateful logic is any code that uses state.
+
 4. What are the three step of creating a successful test? What is done in each phase? 
+
+Arrange - sets up the test case
+Act - cover what is being tested, it acts on the target behavior
+Assert - the expected outcome, will result in a response (if the code works)
